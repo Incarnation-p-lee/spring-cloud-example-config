@@ -10,6 +10,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:9999/eureka/
 
+spring:
+  cloud:
+    config:
+      enabled: true
+
 turbine:
   app-config: ribbon-consumer
 #  aggregator:
@@ -17,3 +22,4 @@ turbine:
 #      - default
   cluster-name-expression: new String('default')
   combine-host-port: true
+

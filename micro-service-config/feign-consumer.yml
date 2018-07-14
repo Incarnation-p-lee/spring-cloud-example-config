@@ -5,6 +5,11 @@ spring:
   application:
     name: feign-consumer
 
+spring:
+  cloud:
+    config:
+      enabled: true
+
 eureka:
   client:
     serviceUrl:
@@ -32,3 +37,4 @@ HELLO-SERVICE: # name from @FeignClient
 
 # hystrix time limitation will trigger fallback after timeout.
 # ribbon config will retry read until the response time not reach the ReadTimeout.
+

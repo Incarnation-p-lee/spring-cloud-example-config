@@ -5,6 +5,11 @@ spring:
   application:
     name: zuul-gateway
 
+spring:
+  cloud:
+    config:
+      enabled: true
+
 eureka:
   client:
     serviceUrl:
@@ -28,3 +33,4 @@ zuul:
 zuul:
   ignored-services:
     - hello-service
+

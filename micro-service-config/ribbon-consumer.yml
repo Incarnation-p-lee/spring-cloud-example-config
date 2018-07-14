@@ -5,6 +5,11 @@ spring:
   application:
     name: ribbon-consumer
 
+spring:
+  cloud:
+    config:
+      enabled: true
+
 eureka:
   client:
     serviceUrl:
@@ -16,3 +21,4 @@ management:
       exposure:
         include:
           - hystrix.stream
+
