@@ -2,9 +2,8 @@ server:
   port: 8006
 
 spring:
-  cloud:
-    config:
-      enabled: true
+  application:
+    name: zuul-gateway
 
 eureka:
   client:

@@ -1,15 +1,14 @@
 server:
   port: 8004
 
+spring:
+  application:
+    name: hystrix-dashboard
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9999/eureka/
-
-spring:
-  cloud:
-    config:
-      enabled: true
 
 turbine:
   app-config: ribbon-consumer

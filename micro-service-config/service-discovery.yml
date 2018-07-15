@@ -4,6 +4,10 @@ server:
 # registry name in eureka server, unique
 # spring.application.name=service-discovery
 
+spring:
+  application:
+    name: service-discovery
+
 eureka:
   instance:
     hostname: localhost

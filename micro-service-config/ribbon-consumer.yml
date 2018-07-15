@@ -2,9 +2,8 @@ server:
   port: 8003
 
 spring:
-  cloud:
-    config:
-      enabled: true
+  application:
+    name: ribbon-consumer
 
 eureka:
   client:
