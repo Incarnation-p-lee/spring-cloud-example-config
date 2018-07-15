@@ -2,10 +2,6 @@ server:
   port: 8005
 
 spring:
-  application:
-    name: feign-consumer
-
-spring:
   cloud:
     config:
       enabled: true

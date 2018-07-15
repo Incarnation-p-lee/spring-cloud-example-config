@@ -2,10 +2,6 @@ server:
   port: 8001
 
 spring:
-  application:
-    name: hello-service
-
-spring:
   cloud:
     config:
       enabled: true

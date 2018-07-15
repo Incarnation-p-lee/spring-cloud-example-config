@@ -2,10 +2,6 @@ server:
   port: 8003
 
 spring:
-  application:
-    name: ribbon-consumer
-
-spring:
   cloud:
     config:
       enabled: true

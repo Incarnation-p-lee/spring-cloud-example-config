@@ -2,10 +2,6 @@ server:
   port: 8002
 
 spring:
-  application:
-    name: hello-service-backup
-
-spring:
   cloud:
     config:
       enabled: true
