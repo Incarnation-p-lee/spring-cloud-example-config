@@ -1,15 +1,6 @@
 server:
   port: 8006
 
-spring:
-  application:
-    name: zuul-gateway
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9999/eureka/
-
 zuul:
   routes:
     api-a:
@@ -27,5 +18,5 @@ zuul:
 
 zuul:
   ignored-services:
-    - hello-service
+    - web-application
 

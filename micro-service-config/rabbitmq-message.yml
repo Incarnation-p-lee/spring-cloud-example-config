@@ -2,8 +2,6 @@ server:
   port: 9876
 
 spring:
-  application:
-    name: rabbitmq-message
   rabbitmq:
     host: localhost
     port: 5672
