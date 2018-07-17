@@ -1,14 +1,10 @@
 server:
   port: 8001
 
-spring:
-  application:
-    name: hello-service
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9999/eureka/
 
-version: 0.1.0-SNAPSHOT
+version: 0.1.1-SNAPSHOT
 
