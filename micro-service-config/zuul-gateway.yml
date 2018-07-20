@@ -20,3 +20,6 @@ zuul:
   ignored-services:
     - web-application
 
+required:
+  parameter: token
+
