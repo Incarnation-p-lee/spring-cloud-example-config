@@ -8,3 +8,6 @@ management:
         include:
           - hystrix.stream
 
+provider:
+  name: ribbon
+
