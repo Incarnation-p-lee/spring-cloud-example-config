@@ -2,5 +2,5 @@ server:
   port: 8003
 
 provider:
-  name: panli
+  name: ribbon
 
