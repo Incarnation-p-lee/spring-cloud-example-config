@@ -21,6 +21,9 @@ WEB-APPLICATION: # name from @FeignClient
     MaxAutoRetriesNextServer: 2
     MaxAutoRetries: 1
 
+consumer:
+  version: 0.0.1-SNAPSHOT
+
 # hystrix time limitation will trigger fallback after timeout.
 # ribbon config will retry read until the response time not reach the ReadTimeout.
 
