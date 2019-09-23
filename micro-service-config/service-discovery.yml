@@ -22,3 +22,8 @@ spring:
     config:
       enabled: true
 
+spring:
+  cloud:
+    config:
+      git:
+        uri: localhost:8888/
