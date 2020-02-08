@@ -7,7 +7,7 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 provider:
-  name: azure-spring-cloud
+  name: panli-test
 
 ribbon:
   ReadTimeout: 20000
