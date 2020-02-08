@@ -7,7 +7,7 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 provider:
-  name: panli-test
+  name: panli-test-interval-0
 
 ribbon:
   ReadTimeout: 20000
