@@ -5,6 +5,12 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 20000
+            
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
 
 provider:
   name: panli-test-interval-0
