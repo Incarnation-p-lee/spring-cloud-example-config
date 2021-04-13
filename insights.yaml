@@ -1,2 +1,8 @@
 test:
   version: v1
+  
+spring:
+  cloud:
+    config:
+      refresh-interval: 30
+      auto-refresh: true
